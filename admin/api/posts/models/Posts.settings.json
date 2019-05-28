@@ -1,0 +1,36 @@
+{
+  "connection": "default",
+  "collectionName": "blogposts",
+  "info": {
+    "name": "posts",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "intro": {
+      "type": "text",
+      "required": true,
+      "minLength": 20
+    },
+    "author": {
+      "model": "permission",
+      "via": "posts",
+      "plugin": "users-permissions"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "fulltext": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

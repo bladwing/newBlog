@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'RobotoSlab-Regular';
+    src:url(../fonts/RobotoSlab-Regular.ttf) format('truetype');
+}
+.blogpost {
+	display: flex;
+	width: 70%;
+	margin: 0 2%;
+}
+.post {
+	display: inline-flex;
+	flex-direction: column-reverse;
+	border: 1px solid #999;
+	border-radius: 10px;
+	width: 100%;
+	margin: 1% auto;
+	padding: 4%;
+}
+.postTitle {
+	font-size: 1.8em;
+	font-family: 'RobotoSlab-Regular';
+	color: #3d1a1b;
+	margin: 1px auto;
+	text-align: center;
+	width: 40%;
+	padding: 10px;
+}
+
+h2.postTitle:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+li > .about-btn {
+	color: #999;
+	float: right;
+	margin: 0 1% 1% 0;
+	padding: 9px 20px;
+	border: 1px solid #999;
+	font-size: 13px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	font-family: 'Raleway-Regular';
+}
+.about-btn:hover,.a-btn a:hover {
+	background: #190608;
+	color: #fff;
+	border: 1px solid #190608;
+	transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
+}
+.about-two{
+	margin-top:3%;
+	display: flex;
+}
+.about-two img{
+	width:100%;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+}
+.about-two p{
+	font-size:14px;
+	font-family: 'Raleway-Regular';
+	color:#999;
+	line-height:1.8em;
+	margin-top:2%;
+}
+.about-two p a{
+	color:#190608;
+}
+.about-two p a:hover{
+	color:#999;
+}
+.about-two ul{
+	padding:0;
+	
+}
+.about-two ul li{
+	list-style:none;
+	display:inline-block;
+}
+.about-two ul li p{
+	color:#999;
+	font-size:17px;
+}
+.about-two ul li a span{
+	background:url(../images/social.png) no-repeat;
+	width:16px;
+	height:16px;
+	display:block;
+	margin: 0 4px;
+}
+.about-two ul li a span.fb{
+	background-position:0px 0px;
+}
+.about-two ul li a span.twit{
+	background-position:-16px 0px;
+}
+.about-two ul li a span.pin{
+	background-position:-32px 0px;
+}
+.about-two ul li a span.rss{
+	background-position:-48px 0px;
+}
+.about-two ul li a span.drbl{
+	background-position:-64px 0px;
+}
+.about-two p {
+    font-size: 13px;
+}
+.sharePost {
+	margin: 0 0 2px 20px;
+}
+
+
+
+/*====================Detail====================*/
+.postDetail {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 70%;
+	margin: 2% auto;
+}
+
+.rightSide {
+	width: 25%;
+	margin: 12px auto;
+
+
+}
+
+.weather {
+	display: flex;
+	width: 99%;
+	
+	text-align: center;
+
+}

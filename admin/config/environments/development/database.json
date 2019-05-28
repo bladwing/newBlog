@@ -1,0 +1,19 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "cluster0-z4sb2.mongodb.net",
+        "srv": true,
+        "database": "blog_db",
+        "username": "blog_db",
+        "password": "rGpQ7045ZHJHbJrR"
+      },
+      "options": {
+        "ssl": true
+      }
+    }
+  }
+}
