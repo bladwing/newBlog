@@ -124,7 +124,7 @@ li > .about-btn {
 
 /*====================Detail====================*/
 .postDetail {
-	display: flex;
+	
 	justify-content: center;
 	flex-wrap: wrap;
 	width: 70%;
