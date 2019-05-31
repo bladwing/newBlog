@@ -8,7 +8,7 @@ function NotFound() {
 	return(
 		<div>
 		<img class="error" src={Img}/>
-		<a href="/"><h1 class="errorText" alt="error404">Please go to Home Page</h1></a>
+		<a href="/"><h1 class="errorText">Please go to Home Page</h1></a>
 		</div>
 		)
 }
