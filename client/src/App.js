@@ -1,40 +1,38 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
-
+import { BrowserRouter as Router, Route, Switch	 } from "react-router-dom";
 
 import './static/css/style.css';
 import './static/css/bootstrap.css';
 import './static/css/blog_post.css';
-import Menu from 'menu';
-import Header from 'header';
-import Blog from 'blog';
-import Footer from 'footer';
-import Detail from 'detail';
-import Aboutus from 'about'
-// import Basic from 'feedback';
-import FormContact from 'contact'
-import GalleryCom from 'gallery'
 
-
-
+import Menu from './Component/menu';
+import NotFound from './Component/404'
+import Blog from './Component/Post/blog';
+import Header from './Component/header';
+import Footer from './Component/footer';
+import Aboutus from './Component/about';
+import Detail from './Component/Post/detail';
+import GalleryCom from './Component/gallery';
+import FormContact from './Component/contact';
 
  function App() {
   return (
   	<Router>
     	<Header />
     	<Menu />
-    	
-    		<Route path="/" component={Home} exact />
-    		<Route path="/About" component={About} />
-    		<Route path="/Gallery" component={Gallery} />
-    		<Route path="/Contact" component={Contact} />
-			<Route path="/blogposts/:id" component={Detail}/>		
-
+    		<Switch>
+    			<Route path="/" component={Home} exact />
+    			<Route path="/About" component={About} />
+    			<Route path="/Gallery" component={Gallery} />
+    			<Route path="/Contact" component={Contact} />
+				<Route path="/blogposts/:id" component={Detail}/>
+				<Route path="*" component={NotFound} status={404} />
+			</Switch>	
     	<Footer />
 	</Router>
 
     )
-}
+};
 
 	function Home() {
 	return (

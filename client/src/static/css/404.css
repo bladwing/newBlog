@@ -1,0 +1,10 @@
+.error {
+	margin: 3% auto;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+.errorText {
+	text-align: center;
+	margin: 0 0 5% 0;
+}

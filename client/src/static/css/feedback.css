@@ -1,0 +1,22 @@
+h3 {
+	text-align: center;
+}
+.form {
+	text-align: center;
+	border: 1px solid black;
+}
+.field {
+	width: 60%;
+	text-align: center;
+	margin: 3% 2%;
+}
+.btn {
+	margin: 2%;
+}
+textarea {
+	max-width: 80%;
+	min-width: 50%;
+	max-height: 200px;
+	min-height: 70px;
+	height: 100px;
+}
