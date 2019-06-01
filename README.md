@@ -16,6 +16,6 @@ React.js address: localhost:3010
 
 Admin Strapi address: localhost:6777/admin
 
-username: 
+username: tester@ponarenko.com
 
-password: 
+password: tester123
