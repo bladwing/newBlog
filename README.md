@@ -19,3 +19,6 @@ Admin Strapi address: localhost:6777/admin
 username: tester@ponarenko.com
 
 password: tester123
+
+from admin panel you can add post to site.
+evrything conected to Atlas MongoDb.
