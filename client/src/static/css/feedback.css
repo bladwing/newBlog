@@ -20,3 +20,6 @@ textarea {
 	min-height: 70px;
 	height: 100px;
 }
+textarea:focus,.field:focus::-webkit-input-placeholder {
+  color: black;
+}

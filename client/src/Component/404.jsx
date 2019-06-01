@@ -2,8 +2,6 @@ import React from 'react';
 import '../static/css/404.css';
 import Img from '../static/images/404.png';
 
-
-
 function NotFound() {
 	return(
 		<div>
