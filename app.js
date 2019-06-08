@@ -37,7 +37,7 @@ catch(err){
 // =============================================BLOG_POST_COMPONENT=============================================
 
 const blogposts = require('./models/blogposts.js');
-const posts = require('./routes/posts.js')(blogposts);
+const posts = require('./routes/Posts.js')(blogposts);
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended:true}))
