@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "concurrently \"nodemon ./bin/www\" \"cd client && npm start\" \"cd admin && strapi start"
+    "start": "concurrently \"nodemon ./bin/www\" \"cd client && npm start\" \"cd admin && strapi start\""
   },
   "dependencies": {
     "axios": "^0.18.0",
