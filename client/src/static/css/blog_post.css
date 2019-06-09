@@ -141,7 +141,6 @@ li > .about-btn {
 .weather {
 	display: flex;
 	width: 99%;
-	
 	text-align: center;
-
+	border-bottom: 1px solid #999;
 }

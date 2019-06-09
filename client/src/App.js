@@ -66,7 +66,6 @@ import FormContact from './Component/contact';
 		return (
 			<div>
 					<div className="contact-top heading"><h3>Contact</h3></div>
-				
 				<FormContact />
 			</div>
 

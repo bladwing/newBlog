@@ -45,7 +45,9 @@ export default class Posts extends React.Component {
       </div>
 
       <div className="rightSide">
-    <iframe src="https://sunsetsunrisetime.com/widget_weather.php?view=true&wrows=9&now_weather=1&Rrain=1&Rtemperature=1&Rpressure=1&Rdampness=1&Rcloudless=1&Rwind=1&idcity=7919&text=3d1a1b&colB=3d1a1b&colBack=ffffff&colLink=3d1a1b&height=394.6&infoDetails=true&timeZone=Europe/Moscow&typeClock=undefined&tborder=false&grid_color=false" className="weather" scrolling="no" width="200" height="420" frameBorder="0" title="myFrame"></iframe>  
+{/*    <iframe src="https://sunsetsunrisetime.com/widget_weather.php?view=true&wrows=9&now_weather=1&Rrain=1&Rtemperature=1&Rpressure=1&Rdampness=1&Rcloudless=1&Rwind=1&idcity=7919&text=3d1a1b&colB=3d1a1b&colBack=ffffff&colLink=3d1a1b&height=394.6&infoDetails=true&timeZone=Europe/Moscow&typeClock=undefined&tborder=false&grid_color=false" className="weather" scrolling="no" width="200" height="420" frameBorder="0" title="myFrame"></iframe>
+*/}   
+<iframe src="https://sunsetsunrisetime.com/widget_weather.php?view=true&newdb=true&wrows=10&now_weather=1&Rrain=1&Rtemperature=1&Rpressure=1&Rdampness=1&Rcloudless=1&Rwind=1&idcity=51150&text=3d1a1b&colB=999&colBack=ffffff&colLink=7f7f7f&height=420&infoDetails=true&timeZone=Europe/Moscow&typeClock=undefined&tborder=false&grid_color=true" className="weather"  scrolling="no" width="100%" height="420" frameBorder="0" title="myFrame"></iframe>
      <h3>Calendar</h3>
      <Calendar/>
 
