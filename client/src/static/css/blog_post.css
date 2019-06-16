@@ -140,7 +140,11 @@ li > .about-btn {
 
 .weather {
 	display: flex;
+	margin: 0 auto;
 	width: 99%;
 	text-align: center;
 	border-bottom: 1px solid #999;
 }
+.react-calendar {
+  margin: 0 auto;
+  }
